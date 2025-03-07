@@ -92,7 +92,7 @@ Image-Denoising-Project/
 
 👤 **Shashank Rao U**  
 📧 Contact: [22j46.shashank@sjec.ac.in](mailto:22j46.shashank@sjec.ac.in)  
-
+🔗 GitHub: [Shashankraou](https://github.com/Shashankraou) 
 ---
 
 ## 📜 License
