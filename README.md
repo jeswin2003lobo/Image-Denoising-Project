@@ -88,7 +88,7 @@ Image-Denoising-Project/
 ## 📌 Authors
 👤 **Jeswin Lobo**  
 📧 Contact: [22j23.jeswin@sjec.ac.in](mailto:22j23.jeswin@sjec.ac.in)  
-🔗 GitHub: [Jeswin2003](https://github.com/Jeswin2003) 
+🔗 GitHub: [Jeswin2003lobo](https://github.com/Jeswin2003lobo) 
 
 👤 **Shashank Rao U**  
 📧 Contact: [22j46.shashank@sjec.ac.in](mailto:22j46.shashank@sjec.ac.in)  
