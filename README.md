@@ -28,12 +28,7 @@ This project focuses on **Image Restoration & Noise Removal** using various filt
    cd Image-Denoising-Project
    ```
 
-2. **Install Required Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Jupyter Notebook**
+2. **Run the Jupyter Notebook**
    ```bash
    jupyter notebook Noise_Removal.ipynb
    ```
