@@ -65,7 +65,6 @@ Higher PSNR and SSIM values indicate better quality restoration.
 Image-Denoising-Project/
 │── images/                # Sample input and output images
 │── Noise_Removal.ipynb    # Jupyter Notebook with implementation
-│── requirements.txt       # List of dependencies
 │── README.md              # Project documentation
 ```
 
