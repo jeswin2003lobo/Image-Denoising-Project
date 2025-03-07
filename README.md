@@ -90,9 +90,10 @@ Image-Denoising-Project/
 📧 Contact: [22j23.jeswin@sjec.ac.in](mailto:22j23.jeswin@sjec.ac.in)  
 🔗 GitHub: [Jeswin2003lobo](https://github.com/Jeswin2003lobo) 
 
-## 👤 **Shashank Rao U**  
+👤 **Shashank Rao U**  
 📧 Contact: [22j46.shashank@sjec.ac.in](mailto:22j46.shashank@sjec.ac.in)  
 🔗 GitHub: [Shashankraou](https://github.com/Shashankraou) 
+
 ---
 
 ## 📜 License
