@@ -1,94 +1,126 @@
-# 📌 Digital Image Processing: Noise Removal Project
+# 🌌 Digital Image Processing: Astronomical Image Denoising
 
 ## 📝 Project Description
-This project focuses on **Image Restoration & Noise Removal** using various filtering techniques in **Digital Image Processing (DIP)**. The goal is to take a noisy image as input, apply different noise removal techniques, and evaluate the quality of the restored image using performance metrics like **PSNR (Peak Signal-to-Noise Ratio) and SSIM (Structural Similarity Index Measure).**
+This mini-project focuses on **Image Restoration & Noise Removal** techniques specifically applied to **astronomical images**, particularly those captured by the **Hubble Space Telescope**. The goal is to simulate **salt-and-pepper noise** (common in space imaging due to cosmic rays) and restore the image quality using various denoising algorithms. The effectiveness of each technique is evaluated using standard image quality metrics: **PSNR (Peak Signal-to-Noise Ratio)** and **SSIM (Structural Similarity Index Measure)**.
 
 ---
 
-## 🎯 Objectives
-✔ **Remove noise** from images using different denoising techniques.  
-✔ **Compare performance** of Median Blur, Gaussian Blur, and Non-Local Means Denoising.  
-✔ **Measure the quality** of noise removal using PSNR and SSIM.  
+## 🌟 Problem Statement
+Astronomical images often get degraded due to sensor limitations and cosmic interference. Salt-and-pepper noise is particularly common due to high-energy particles hitting the imaging sensor. Although many public datasets are already denoised, simulating such noise and applying restoration techniques is crucial in developing resilient algorithms for deep-space research.
 
 ---
 
-## 🛠️ Technologies Used
-- **Python**  
-- **OpenCV** (for image processing)  
-- **Matplotlib** (for visualization)  
-- **NumPy** (for matrix operations)  
-- **scikit-image** (for performance metrics)  
+## 🚀 Real-World Relevance
+- ✨ Enhances clarity in deep-space imaging used by astrophysicists.
+- 🔬 Preserves scientific fidelity in astronomical observations.
+- 🚀 Improves automated analysis of celestial phenomena by reducing artifacts.
 
 ---
 
-## 🔧 Installation & Setup
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/Image-Denoising-Project.git
-   cd Image-Denoising-Project
-   ```
-
-2. **Run the Jupyter Notebook**
-   ```bash
-   jupyter notebook Noise_Removal.ipynb
-   ```
+## 🪨 Dataset Used
+Images are sourced from the [ESA/Hubble Space Telescope Archive](https://esahubble.org/images/), which provides high-quality views of galaxies, nebulae, and other celestial bodies. We manually introduce **salt-and-pepper noise** to simulate raw unprocessed captures from deep space.
 
 ---
 
-## 📸 Noise Removal Techniques Used
-### 1️⃣ **Median Blur**
-- Removes **salt-and-pepper noise** by replacing pixel values with the median of surrounding pixels.
+## 🔧 Technologies Used
+- **Python 3.x**
+- **OpenCV** – Image processing and denoising filters
+- **NumPy** – Array operations
+- **Matplotlib** – Visualization
+- **scikit-image** – For SSIM and PSNR metrics
 
-### 2️⃣ **Gaussian Blur**
-- Applies a Gaussian filter to smooth the image and reduce noise.
+---
 
-### 3️⃣ **Non-Local Means Denoising**
-- Uses a more advanced noise removal approach to preserve image details.
+## 🔢 Techniques Implemented
+
+### ✅ Median Filter
+- Best for removing impulsive salt-and-pepper noise.
+
+### ✅ Non-Local Means (NLM)
+- Uses neighborhood similarity to preserve edges while denoising.
+
+### ✅ Wavelet Denoising
+- Works in frequency domain for multi-resolution noise suppression.
+
+### ✅ Bilateral Filter
+- Smoothens while preserving edges.
+
+### ✅ Hybrid Techniques
+- Combination of Median + NLM, and Bilateral + Wavelet yielded the best results.
+
+### ❌ Wiener Filter
+- Statistical filter with low performance for this noise type.
 
 ---
 
 ## 📊 Performance Evaluation
-The quality of noise removal is measured using **PSNR (Peak Signal-to-Noise Ratio)** and **SSIM (Structural Similarity Index Measure).**
 
-| Technique | PSNR  | SSIM  |
-|-----------|-------|-------|
-| **Median Blur** | 18.34 | 0.3922 |
-| **Gaussian Blur** | 20.48 | 0.6656 |
-| **Non-Local Means Denoising** | 19.73 | 0.4681 |
+### 🔹 Image: h1
+| Method               | PSNR       | SSIM     |
+|----------------------|------------|----------|
+| Median + NLM         | **31.29**  | **0.761** |
+| Median Filter        | 28.66      | 0.582    |
+| Wavelet Filter       | 26.65      | 0.520    |
+| Bilateral + Wavelet  | 26.16      | 0.558    |
+| Bilateral Filter     | 25.61      | 0.521    |
+| Non-Local Means      | 21.96      | 0.350    |
+| Wiener Filter        | 18.10      | 0.137    |
 
-Higher PSNR and SSIM values indicate better quality restoration.
+### 🔹 Image: h2
+| Method               | PSNR       | SSIM     |
+|----------------------|------------|----------|
+| Median + NLM         | **31.29**  | **0.850** |
+| Median Filter        | 28.78      | 0.591    |
+| Wavelet Filter       | 26.48      | 0.519    |
+| Bilateral + Wavelet  | 26.03      | 0.552    |
+| Bilateral Filter     | 25.55      | 0.510    |
+| Non-Local Means      | 21.22      | 0.256    |
+| Wiener Filter        | 18.15      | 0.134    |
 
 ---
 
 ## 📂 Project Structure
 ```
-Image-Denoising-Project/
-│── images/                # Sample input and output images
-│── Noise_Removal.ipynb    # Jupyter Notebook with implementation
-│── README.md              # Project documentation
+Astronomical-Image-Denoising/
+│── images/                  # Input noisy and restored Hubble images
+│── Noise_Removal.ipynb      # Main implementation
+│── README.md                # Documentation
 ```
 
 ---
 
-## 🚀 How to Contribute
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`
-3. Commit changes: `git commit -m 'Added a new feature'`
-4. Push to the branch: `git push origin feature-branch`
-5. Submit a pull request.
+## 🔄 How to Run
+```bash
+git clone https://github.com/your-username/Astronomical-Image-Denoising.git
+cd Astronomical-Image-Denoising
+jupyter notebook Noise_Removal.ipynb
+```
 
 ---
 
-## 📌 Authors
-👤 **Jeswin Lobo**  
-📧 Contact: [22j23.jeswin@sjec.ac.in](mailto:22j23.jeswin@sjec.ac.in)  
-🔗 GitHub: [Jeswin2003lobo](https://github.com/Jeswin2003lobo) 
+## 👨‍💼 Team Members
+- 👤 Jeswin Lobo (22J23)  
+  📧 Email: 22j23.jeswin@sjec.ac.in  
+  👤 GitHub: [Jeswin2003lobo](https://github.com/Jeswin2003lobo)
 
-👤 **Shashank Rao U**  
-📧 Contact: [22j46.shashank@sjec.ac.in](mailto:22j46.shashank@sjec.ac.in)  
-🔗 GitHub: [Shashankraou](https://github.com/Shashankraou) 
+- 👤 Shashank Rao U (22J46)  
+  📧 Email: 22j46.shashank@sjec.ac.in  
+  👤 GitHub: [Shashankraou](https://github.com/Shashankraou)
 
 ---
 
-## 📜 License
+## 📝 License
 This project is licensed under the **MIT License**.
+
+---
+
+## 📅 Submission Note
+- This mini-project submission is as per **Digital Image Processing Assignment Category 2**.
+- Evaluation Metrics: Real-World Problem Mapping, Input Relevance, PSNR/SSIM Metrics, Code Quality, README, and Timely Submission.
+- We encourage interviewers and recruiters to explore this project for its relevance to **AI in Imaging and Space Data Analysis**.
+
+---
+
+> ✨ **"Don't just treat this as another assignment — treat it as a project you'd proudly showcase in interviews."**
+
+
