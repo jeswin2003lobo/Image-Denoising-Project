@@ -51,25 +51,26 @@ Images are sourced from the [ESA/Hubble Space Telescope Archive](https://esahubb
 Below are the original and noisy images for H1 and H2:
 
 - **H1 Original**:
-  ![H1 Original](results/H-1 (Potential future star-forming regions)_denoised_grid.png)
+  ![H1 Original](results/H-1_Potential_Future_Star_Forming_Regions_original.png)
 
 - **H1 Noisy**:
-  ![H1 Noisy](results/H-1\ \(Potential\ future\ star-forming\ regions\)_noisy.png)
+  ![H1 Noisy](results/H-1_Potential_Future_Star_Forming_Regions_noisy.png)
 
 - **H2 Original**:
-  ![H2 Original](results/H-2\ \(Active\ star\ formation\)_original.png)
+  ![H2 Original](results/H-2_Active_Star_Formation_original.png)
 
 - **H2 Noisy**:
-  ![H2 Noisy](results/H-2\ \(Active\ star\ formation\)_noisy.png)
+  ![H2 Noisy](results/H-2_Active_Star_Formation_noisy.png)
 
 ### Denoised Images (Grid)
 Below is a grid showing the results of various denoising methods applied to the noisy images:
 
 - **H1 Denoised Images**:
-  ![H1 Denoised](results/H-1\ \(Potential\ future\ star-forming\ regions\)_denoised_grid.png)
+  ![H1 Denoised](results/H-1_Potential_Future_Star_Forming_Regions_denoised_grid.png)
 
 - **H2 Denoised Images**:
-  ![H2 Denoised](results/H-2\ \(Active\ star\ formation\)_denoised_grid.png)
+  ![H2 Denoised](results/H-2_Active_Star_Formation_denoised_grid.png)
+
 ## Evaluation Results
 Here are the evaluation results for the denoising methods (PSNR and SSIM):
 ## 📊 Performance Evaluation (H1)
