@@ -95,28 +95,24 @@ Here are the evaluation results for the denoising methods (PSNR and SSIM):
 | Bilateral Filter    | 25.44     | 0.506     |
 | Non-Local Means     | 21.16     | 0.254     |
 
----
 
 ## 📂 Project Structure
 
----
 Astronomical-Image-Denoising/
-├── images/                     # Original images
-│   ├── H-1 (Potential future star-forming regions).jpg
-│   ├── H-2 (Active star formation).jpg
-├── results/                    # Processed images and output
-│   ├── H-1_original.png
-│   ├── H-1_noisy.png
-│   ├── H-1_denoised_grid.png
-│   ├── H-1_evaluation.csv
-│   ├── H-2_original.png
-│   ├── H-2_noisy.png
-│   ├── H-2_denoised_grid.png
-│   ├── H-2_evaluation.csv
-├── Noise_Removal.ipynb         # Main code
-└── README.md                   # Documentation (to be updated with links to the results)
-
----
+├── images/
+│ ├── H-1 (Potential future star-forming regions).jpg
+│ └── H-2 (Active star formation).jpg
+├── results/
+│ ├── H-1_original.png # Original RGB image exported as PNG
+│ ├── H-1_noisy.png # Noisy version with Gaussian + S&P noise
+│ ├── H-1_denoised_grid.png # Composite grid of all denoising results
+│ ├── H-1_evaluation.csv # PSNR & SSIM scores for H-1
+│ ├── H-2_original.png
+│ ├── H-2_noisy.png
+│ ├── H-2_denoised_grid.png
+│ └── H-2_evaluation.csv
+├── Noise_Removal.ipynb # Jupyter notebook with implementation
+└── README.md # Project documentation
 
 ## 🔄 How to Run
 
