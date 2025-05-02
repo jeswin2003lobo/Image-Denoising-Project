@@ -48,7 +48,7 @@ Images are sourced from the [ESA/Hubble Space Telescope Archive](https://esahubb
 ### ✅ Hybrid Techniques
 - Combination of Median + NLM, and Bilateral + Wavelet yielded the best results.
 
-### ❌ Wiener Filter
+### ✅ Wiener Filter
 - Statistical filter with low performance for this noise type.
 
 ---
@@ -99,11 +99,11 @@ jupyter notebook Noise_Removal.ipynb
 ---
 
 ## 👨‍💼 Team Members
-- 👤 Jeswin Lobo (22J23)  
+- 👤 Jeswin Lobo (4SO22CD023)  
   📧 Email: 22j23.jeswin@sjec.ac.in  
   👤 GitHub: [Jeswin2003lobo](https://github.com/Jeswin2003lobo)
 
-- 👤 Shashank Rao U (22J46)  
+- 👤 Shashank Rao U (4SO22CD046)  
   📧 Email: 22j46.shashank@sjec.ac.in  
   👤 GitHub: [Shashankraou](https://github.com/Shashankraou)
 
@@ -113,14 +113,5 @@ jupyter notebook Noise_Removal.ipynb
 This project is licensed under the **MIT License**.
 
 ---
-
-## 📅 Submission Note
-- This mini-project submission is as per **Digital Image Processing Assignment Category 2**.
-- Evaluation Metrics: Real-World Problem Mapping, Input Relevance, PSNR/SSIM Metrics, Code Quality, README, and Timely Submission.
-- We encourage interviewers and recruiters to explore this project for its relevance to **AI in Imaging and Space Data Analysis**.
-
----
-
-> ✨ **"Don't just treat this as another assignment — treat it as a project you'd proudly showcase in interviews."**
 
 
