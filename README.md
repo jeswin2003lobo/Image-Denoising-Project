@@ -95,6 +95,7 @@ Here are the evaluation results for the denoising methods (PSNR and SSIM):
 | Bilateral Filter    | 25.44     | 0.506     |
 | Non-Local Means     | 21.16     | 0.254     |
 
+*Note: Higher PSNR and SSIM values indicate better denoising performance. The **Median + NLM** method achieves the highest scores for both H1 and H2, making it the best overall technique in our experiments.*
 
 ## 📂 Project Structure
 
