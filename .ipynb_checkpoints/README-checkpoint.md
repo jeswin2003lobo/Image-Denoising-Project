@@ -98,7 +98,6 @@ Here are the evaluation results for the denoising methods (PSNR and SSIM):
 
 ## 📂 Project Structure
 
-```plaintext
 Astronomical-Image-Denoising/
 ├── images/
 ├── results/
