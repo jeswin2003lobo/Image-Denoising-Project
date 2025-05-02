@@ -98,11 +98,23 @@ Here are the evaluation results for the denoising methods (PSNR and SSIM):
 
 ## 📂 Project Structure
 
+```plaintext
 Astronomical-Image-Denoising/
 ├── images/
+│   ├── H-1 (Potential future star-forming regions).jpg
+│   └── H-2 (Active star formation).jpg
 ├── results/
+│   ├── H-1_original.png
+│   ├── H-1_noisy.png
+│   ├── H-1_denoised_grid.png
+│   ├── H-1_evaluation.csv
+│   ├── H-2_original.png
+│   ├── H-2_noisy.png
+│   ├── H-2_denoised_grid.png
+│   └── H-2_evaluation.csv
 ├── Noise_Removal.ipynb
 └── README.md
+```
 
 ## 🔄 How to Run
 
