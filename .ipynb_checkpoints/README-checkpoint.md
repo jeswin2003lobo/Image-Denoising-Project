@@ -103,16 +103,16 @@ Astronomical-Image-Denoising/
 │ ├── H-1 (Potential future star-forming regions).jpg
 │ └── H-2 (Active star formation).jpg
 ├── results/
-│ ├── H-1_original.png # Original RGB image exported as PNG
-│ ├── H-1_noisy.png # Noisy version with Gaussian + S&P noise
-│ ├── H-1_denoised_grid.png # Composite grid of all denoising results
-│ ├── H-1_evaluation.csv # PSNR & SSIM scores for H-1
+│ ├── H-1_original.png
+│ ├── H-1_noisy.png
+│ ├── H-1_denoised_grid.png
+│ ├── H-1_evaluation.csv
 │ ├── H-2_original.png
 │ ├── H-2_noisy.png
 │ ├── H-2_denoised_grid.png
 │ └── H-2_evaluation.csv
-├── Noise_Removal.ipynb # Jupyter notebook with implementation
-└── README.md # Project documentation
+├── Noise_Removal.ipynb
+└── README.md
 
 ## 🔄 How to Run
 
